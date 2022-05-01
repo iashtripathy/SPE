@@ -16,8 +16,9 @@ exports.verifyUser = function(req,res,next){
     if(!token){
         res.statusCode = 400;
         res.setHeader('Content-Type','application/json');
-        
-        res.json({success:false,status:'Access denied No token found'+" Login and try again"});
+        //alert("Access denied No token found");
+        res.redirect('/admin-login');
+        //res.json({success:false,status:'Access denied No token found'+" Login and try again"});
         
     }
     if(token){

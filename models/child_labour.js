@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const labourSchema = new mongoose.Schema({                             // layout of child-labour form schema
+const labourSchema = new mongoose.Schema({                             
     fullname: {
         type: String,
         required: [true, "No name given!"]
@@ -10,7 +10,7 @@ const labourSchema = new mongoose.Schema({                             // layout
         type: Number,
       //  min: 10,
       //  max: 12,
-        required: [true,"No contact number given!"]                     // Validators check to see that info is given by user
+        required: [true,"No contact number given!"]                     
     },
     state: String,
     district: String,
@@ -19,4 +19,4 @@ const labourSchema = new mongoose.Schema({                             // layout
     description: String
 });
 
-module.exports =  Labour = mongoose.model("Labour", labourSchema);                  // creating a model for child-labour schema
+module.exports =  Labour = mongoose.model("Labour", labourSchema);                  

@@ -141,7 +141,7 @@ header {
 
 /* Form Section */
 .form_section {
-  background-color: #d3d6db;
+  background-color: #d9e7e8;
   padding: 3rem 10%; /* top, down is 3rem & left, right is 10% */
 }
 
@@ -155,7 +155,6 @@ header {
 .form_description {
   text-align: center; /* center aligned texts */
   font-size: 1.5rem;
-  font-family: "Gaegu", sans-serif; /* google font */
 }
 
 .meeting_form {
@@ -169,7 +168,7 @@ header {
 }
 
 .contact_textbox {
-  border: 0.2rem solid #d3d6db;
+  border: 0.2rem solid #d9e7e8;
   margin: 1.5rem 5rem;
 
 }
@@ -190,29 +189,25 @@ header {
 
 .contact_label {
   font-size: 2rem;
-  font-family: "Gaegu", sans-serif; /* google font */
 }
 
 .contact_textbox_selectors {
   font-size: 1.5rem;
-  font-family: "Gaegu", sans-serif; /* google font */
   padding: 0.5rem 0rem;
 }
 
 .contact_date_input {
-  font-family: "Gaegu", sans-serif; /* google font */
   padding: 0.5rem 0rem;
 }
 
 .contact_button {
-  background-color: #d3d6db;
+  background-color: #d9e7e8;
   padding: 1rem 4rem;
   text-decoration: none;
   border-radius: 0.5rem;
   font-size: 2rem;
   font-weight: bold;
   color: #000;
-  font-family: "Gaegu", sans-serif; /* google font */
 }
 
 .contact_button:hover {
