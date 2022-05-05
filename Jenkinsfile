@@ -14,7 +14,7 @@ pipeline {
         }
         stage('clone repo and install') { 
             steps {
-                git url: 'https://github.com/iashtripathy/SPE-Final-Project.git', branch: 'main'
+                git url: 'https://github.com/iashtripathy/SPE.git', branch: 'main'
                 sh "npm install"
             }
         }
