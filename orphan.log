@@ -345,3 +345,12 @@
 {"level":"info","message":"Report homeless person page request","timestamp":"2022-05-01T05:06:32.168Z"}
 {"level":"info","message":"Home page request","timestamp":"2022-05-01T05:06:47.822Z"}
 {"level":"info","message":"Server started on port 3000","timestamp":"2022-05-01T05:08:10.528Z"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2022-05-05T10:55:35.311Z"}
+{"level":"info","message":"Home page request","timestamp":"2022-05-05T10:55:48.409Z"}
+{"level":"info","message":"Adoption page request","timestamp":"2022-05-05T10:57:19.303Z"}
+{"level":"info","message":"Admin Login page request","timestamp":"2022-05-05T12:20:37.611Z"}
+{"level":"info","message":"Admin Login Successful","timestamp":"2022-05-05T12:20:45.911Z"}
+{"level":"info","message":"Home page request","timestamp":"2022-05-05T12:20:46.023Z"}
+{"level":"info","message":"homeless person data display page request","timestamp":"2022-05-05T12:20:50.644Z"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2022-05-05T12:50:21.631Z"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2022-05-05T12:52:38.762Z"}

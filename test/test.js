@@ -6,7 +6,7 @@ const should = chai.should();
 chai.use(chaiHttp);
 
 
-//////////////////////////////////////////Test case -1///////////////////////////////////////////////
+/*----------------------------------------Test Case-1-------------------------------------------------*/
 
 describe('/ home route', () => {
   it('it should check the home page', (done) => {
@@ -19,7 +19,7 @@ describe('/ home route', () => {
   });
 });
 
-//////////////////////////////////////////Test case-2//////////////////////////////////////////////////
+/*----------------------------------------Test Case-2-------------------------------------------------*/
 
 describe('/ adoption route', () => {
     it('it should check the adoption page', (done) => {
@@ -33,7 +33,7 @@ describe('/ adoption route', () => {
   });
 
 
-  ////////////////////////////////////////Test case-3//////////////////////////////////////////////////
+/*----------------------------------------Test Case-3-------------------------------------------------*/
 
   describe('/ report-homeless route', () => {
     it('it should Report Homeless People route', (done) => {
@@ -46,7 +46,7 @@ describe('/ adoption route', () => {
     });
   });
 
-  ////////////////////////////////////////Test case-4////////////////////////////////////////////////////
+/*----------------------------------------Test Case-4-------------------------------------------------*/
 
   describe('/ donation route', () => {
     it('it should check the donation page', (done) => {
@@ -60,50 +60,21 @@ describe('/ adoption route', () => {
   });
 
 
-    ////////////////////////////////////////Test case-5////////////////////////////////////////////////////
+/*----------------------------------------Test Case-5-------------------------------------------------*/
 
-    describe('/ Admin Login route', () => {
-      it('It checks Admin Login page', (done) => {
-        chai.request(server)
-            .get('/admin-login')
-            .end((err, res) => {
-                  res.should.have.status(200);
-              done();
-            });
-      });
-    });
-
-
-
-  ////////////////////////////////////////Test case-6////////////////////////////////////////////////////
-
-/*   describe('/ Homeless Persons Data route', () => {
-    it('It checks the homeless persons data page', (done) => {
+  describe('/ Admin Login route', () => {
+    it('It checks Admin Login page', (done) => {
       chai.request(server)
-          .get('/homeless-persons-data')
+          .get('/admin-login')
           .end((err, res) => {
                 res.should.have.status(200);
             done();
           });
     });
-  }); */
+  });
 
 
-  ////////////////////////////////////////Test case-7////////////////////////////////////////////////////
-
-/*   describe('/ Meeting route', () => {
-    it('It checks all the meetings page', (done) => {
-      chai.request(server)
-          .get('/meeting-data')
-          .end((err, res) => {
-                res.should.have.status(200);
-            done();
-          });
-    });
-  });   */
-
-
-  ////////////////////////////////////////Test case-8////////////////////////////////////////////////////
+/*----------------------------------------Test Case-6-------------------------------------------------*/
 
   describe('/ Admin Logout route', () => {
     it('It checks admin Logout', (done) => {
